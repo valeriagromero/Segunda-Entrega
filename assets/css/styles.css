@@ -94,10 +94,17 @@ h1{
     }
     .pie__imagen{
         display: flex;
-    }
+    }  
+}
+.texto1{
+    font-family:'Black And White Picture', sans-serif;
+    font-family: 'Metal', cursive;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Texturina', serif;
+    font-family: 'Trochut', cursive; ;
+    color:#FF0585 ;
+    line-height: 35px;
 
-
-   
 }
 
 
