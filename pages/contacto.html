@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../assets/css/styles.css">
     <title>Contaco</title>
 </head>
-<body>
+<body class="container-fluid">
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"><img data-aos="flip-left" src="../assets/img/Logo empresa.png" alt=""></a>
@@ -43,7 +43,34 @@
     <header>
         <h1>breakfast & lunch</h1>
     </header>
-    <main></main>
+    <main>
+      <form class="row" action="">
+        <h3 class="text-center texto">Formulario de contacto</h3>
+        <div class="row my-1 p-3 justify-content-center">
+           <input class="col-4 m-1" type="text" name="nombre" placeholder="Ingrese su nombre" id="">
+           <input class="col-4 m-1" type="text" name="apellido" placeholder="Ingrese su apellido" id="">
+        </div>
+        <div class="row justify-content-center">
+        <input class="col-8 m-2" type="text" name="email" placeholder="Ingrese su email" id="">
+        <textarea class="col-8 m-3 p-5 mensaje" placeholder="Ingrese su mensaje" name="mensaje" id=""></textarea>
+       </div>
+       <div class="row justify-content-center texto">
+        <input class="col-2 m-3" type="submit" value="enviar">
+        <input class="col-2 m-3" type="reset" value="Limpiar">
+       </div>
+       <div class="row m-2 p-2 justify-content-center align-items-center texto">
+        <label class="row col-1 " for="idioma">Idioma:</label>
+        <select class="row col-5 justify-content-center texto" name="pais">
+            <option value="ARG">Español</option>
+            <option value="ITA">Italiano</option>
+            <option value="FRA">Frances</option>
+            <option value="ING">Ingles</option>
+            <option value="" selected="selected">Seleccione idioma...</option>
+        </select>
+    </div>
+       
+    </form>    
+    </main>
     <aside>
         <div class="row">
             <h3 class="col-12 text-center my-3 p-3 texto">Metodos de Pago</h3>
