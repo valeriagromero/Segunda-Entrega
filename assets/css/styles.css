@@ -36,7 +36,7 @@ body {
     font-size: 24px; 
 }
 .navbar-brand img{ 
-       
+     
     width: 92px;
 }
 
@@ -109,7 +109,6 @@ h1{
     font-family: 'Trochut', cursive; ;
     color:#FF0585 ;
     line-height: 35px;
-
 }
 @media(min-width:768px){
   .navbar-brand img{
@@ -121,7 +120,6 @@ form input {
     border-radius: 4px;
     margin: 5px;
     border: 1px solid #FF0585;
-
 }
 .mensaje {
     border-radius: 4px;
