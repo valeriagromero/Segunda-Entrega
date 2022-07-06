@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Metal&family=Patrick+Hand&family=Texturina:opsz,wght@12..72,300&family=Trochut:ital@1&display=swap');
+
+@import"reset";
+
+@import"body";
+
+@import"variable";
+
+@import"navbar";
+
+@import"pie";
+
+@import"form";
+
+@import"texto";
+
+@import"btn";
+
+@import"header";
+
+
+@media(max-width:478px){
+    .navbar-brand img{
+        margin-top:-18px;
+    }   
+    .navbar ul li{
+        padding: 0px;
+                      
+    }
+    .navbar ul li a {    
+        color:$colorPrimario ;
+        font-size: 24px; 
+        padding: 5px;
+        text-align: end;
+    }
+  }
+  @media(max-width:478px){
+    .pie{
+        display: flex;
+        justify-content:space-around;   
+    }
+    h3{
+        font-size: 14px;
+    }
+    .pie__imagen{
+        display: flex;
+    }  
+}
+@media(max-width:768px){
+    .navbar-brand img{
+      margin-top:-28%;
+    }
+    .navbar ul li{
+      padding: 0px;                    
+  }
+    .navbar ul li a {    
+      color:$colorPrimario ;
+      font-size: 30px; 
+      padding: 5px;
+      text-align: end;
+      }
+  }
+  @media(max-width:992px){
+      .navbar-brand img{
+          margin-top:-28%;
+        }
+  }
+  
+
+

@@ -1,207 +1,203 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Metal&family=Patrick+Hand&family=Texturina:opsz,wght@12..72,300&family=Trochut:ital@1&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Metal&family=Patrick+Hand&family=Texturina:opsz,wght@12..72,300&family=Trochut:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
+
 body {
-    background-color: rgba(195, 146, 238, 0.781);
+  background-color: rgba(195, 146, 238, 0.781);
 }
 
 .navbar {
-    width: 100%;
-    height: 60px;
-    background-color: #FF3CAC;
-    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #c52b72 100%);
-    font-family:'Black And White Picture', sans-serif;
-    font-family: 'Metal', cursive;
-    font-family: 'Patrick Hand', cursive;
-    font-family: 'Texturina', serif;
-    font-family: 'Trochut', cursive; ;
-    display: flex;
-    justify-content: end
-     
-}
-.collapse{
-    display: flex;
-    justify-content: end;
+  width: 100%;
+  height: 60px;
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #c52b72 100%);
+  font-family: "Black And White Picture", sans-serif;
+  font-family: "Metal", cursive;
+  font-family: "Patrick Hand", cursive;
+  font-family: "Texturina", serif;
+  font-family: "Trochut", cursive;
+  display: flex;
+  justify-content: end;
 }
 .navbar ul li :hover {
-    transform: translate(20px 20px);
-    padding: 15px;
-         
+  transform: translate(20px 20px);
+  padding: 15px;
 }
-.navbar ul li a {    
-    color: rgb(195, 146, 238);
-    font-size: 24px;     
+.navbar ul li a {
+  color: rgb(195, 146, 238);
+  font-size: 24px;
 }
-.navbar-brand img{ 
-     width: 62px; 
-   
-       
+.navbar img {
+  width: 62px;
 }
-@media(max-width:478px){
-    .navbar-brand img{
-        margin-top:-18px;
-    }   
-    .navbar ul li{
-        padding: 0px;
-                      
-    }
-    .navbar ul li a {    
-        color:#FF0585 ;
-        font-size: 24px; 
-        padding: 5px;
-        text-align: end;
-    }
-  }
-h1{
-    color:#FF0585 ;
-    text-align: center;
-    font-size: 40px;
-    text-align: center;
-    font-family:'Black And White Picture', sans-serif;
-    font-family: 'Metal', cursive;
-    font-family: 'Patrick Hand', cursive;
-    font-family: 'Texturina', serif;
-    font-family: 'Trochut', cursive; ;
-    margin: 15px;
+
+.collapse {
+  display: flex;
+  justify-content: end;
 }
-.texto{
-    font-family:'Black And White Picture', sans-serif;
-    font-family: 'Metal', cursive;
-    font-family: 'Patrick Hand', cursive;
-    font-family: 'Texturina', serif;
-    font-family: 'Trochut', cursive; ;
-    color:#FF0585 ;
-    font-size: 24px;
-}
+
 .pie {
-    width: 100%;
-    height: 60px;
-    background-color: #FF3CAC;
-    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #c52b72 100%);
-    display: flex;
-    justify-content: center
+  width: 100%;
+  height: 60px;
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #c52b72 100%);
+  display: flex;
+  justify-content: center;
 }
-.pie__titulo {
-    font-size: 12px;
-    padding: 15px;
-    margin: 3px;
-    color: rgb(195, 146, 238);
-    font-family:'Black And White Picture', sans-serif;
-    font-family: 'Metal', cursive;
-    font-family: 'Patrick Hand', cursive;
-    font-family: 'Texturina', serif;
-    font-family: 'Trochut', cursive; ;
-    text-align: center;
+.pie .pie__titulo {
+  font-size: 12px;
+  padding: 15px;
+  margin: 3px;
+  color: rgb(195, 146, 238);
+  font-family: "Black And White Picture", sans-serif;
+  font-family: "Metal", cursive;
+  font-family: "Patrick Hand", cursive;
+  font-family: "Texturina", serif;
+  font-family: "Trochut", cursive;
+  text-align: center;
 }
-.pie__imagen {
-    padding: 15px;
+.pie .pie__imagen {
+  padding: 15px;
 }
-@media(max-width:478px){
-    .pie{
-        display: flex;
-        justify-content:space-around;   
-    }
-    h3{
-        font-size: 14px;
-    }
-    .pie__imagen{
-        display: flex;
-    }  
+
+form input {
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin: 5px;
+  border: 1px solid #FF0585;
 }
-.texto1{
-    font-family:'Black And White Picture', sans-serif;
-    font-family: 'Metal', cursive;
-    font-family: 'Patrick Hand', cursive;
-    font-family: 'Texturina', serif;
-    font-family: 'Trochut', cursive; ;
-    color:#FF0585 ;
-    line-height: 35px;
+form input .mensaje {
+  border-radius: 4px;
+  border: 1px solid #FF0585;
 }
-@media(max-width:768px){
-  .navbar-brand img{
-    margin-top:-28%;
+
+h1 {
+  color: #FF0585;
+  text-align: center;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Black And White Picture", sans-serif;
+  font-family: "Metal", cursive;
+  font-family: "Patrick Hand", cursive;
+  font-family: "Texturina", serif;
+  font-family: "Trochut", cursive;
+  margin: 15px;
+}
+
+.texto {
+  font-family: "Black And White Picture", sans-serif;
+  font-family: "Metal", cursive;
+  font-family: "Patrick Hand", cursive;
+  font-family: "Texturina", serif;
+  font-family: "Trochut", cursive;
+  color: #FF0585;
+  font-size: 24px;
+}
+
+.texto1 {
+  font-family: "Black And White Picture", sans-serif;
+  font-family: "Metal", cursive;
+  font-family: "Patrick Hand", cursive;
+  font-family: "Texturina", serif;
+  font-family: "Trochut", cursive;
+  color: #FF0585;
+  line-height: 35px;
+}
+
+.card {
+  border: 2px solid #FF0585;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(202, 165, 235, 0.61);
+  display: flex;
+  justify-content: center;
+}
+.card h5 {
+  font-size: 24px;
+  color: #FF0585;
+  margin: 5px 0px;
+  font-family: "Black And White Picture", sans-serif;
+  font-family: "Metal", cursive;
+  font-family: "Patrick Hand", cursive;
+  font-family: "Texturina", serif;
+  font-family: "Trochut", cursive;
+  text-align: center;
+}
+
+.btn {
+  background-color: #FF0585;
+  padding: 5px;
+  color: black;
+  border: 8px;
+  border-radius: 15px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text {
+  text-align: center;
+  font-family: "Black And White Picture", sans-serif;
+  font-family: "Metal", cursive;
+  font-family: "Patrick Hand", cursive;
+  font-family: "Texturina", serif;
+  font-family: "Trochut", cursive;
+  text-align: center;
+  font-size: 18px;
+}
+
+@media (max-width: 478px) {
+  .navbar-brand img {
+    margin-top: -18px;
   }
-  .navbar ul li{
+
+  .navbar ul li {
     padding: 0px;
-                  
-}
-  .navbar ul li a {    
-    color:#FF0585 ;
-    font-size: 30px; 
+  }
+
+  .navbar ul li a {
+    color: #FF0585;
+    font-size: 24px;
     padding: 5px;
     text-align: end;
-    }
+  }
 }
-@media(max-width:992px){
-    .navbar-brand img{
-        margin-top:-28%;
-      }
-}
-form input{
-    padding: 4px 8px;
-    border-radius: 4px;
-    margin: 5px;
-    border: 1px solid #FF0585;
-}
-.mensaje {
-    border-radius: 4px;
-    border: 1px solid #FF0585;
-}
-.card{
-    border: 2px solid #FF0585;
-    margin: 10px;
-    border-radius: 10px;
-    padding: 10px;
-    background-color:rgba(202, 165, 235, 0.61);
+@media (max-width: 478px) {
+  .pie {
     display: flex;
-    justify-content: center;
-   }
-h5{
-    font-size: 24px;
-    color:#FF0585 ;
-    margin: 5px 0px;
-    font-family:'Black And White Picture', sans-serif;
-    font-family: 'Metal', cursive;
-    font-family: 'Patrick Hand', cursive;
-    font-family: 'Texturina', serif;
-    font-family: 'Trochut', cursive; ;
-    text-align: center;
-  
- }
- .btn {
-    background-color: #FF0585;
+    justify-content: space-around;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  .pie__imagen {
+    display: flex;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-brand img {
+    margin-top: -28%;
+  }
+
+  .navbar ul li {
+    padding: 0px;
+  }
+
+  .navbar ul li a {
+    color: #FF0585;
+    font-size: 30px;
     padding: 5px;
-    color: black;
-    border: 8px;
-    border-radius: 15px;
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+    text-align: end;
+  }
 }
-.card-text{
-    text-align: center;
-    font-family:'Black And White Picture', sans-serif;
-    font-family: 'Metal', cursive;
-    font-family: 'Patrick Hand', cursive;
-    font-family: 'Texturina', serif;
-    font-family: 'Trochut', cursive; ;
-    text-align: center;
-    font-size: 18px;
-   
+@media (max-width: 992px) {
+  .navbar-brand img {
+    margin-top: -28%;
+  }
 }
-
-
-
-
-
-
-
-
-
-
