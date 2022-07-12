@@ -73,19 +73,6 @@ form input .mensaje {
   border: 1px solid #FF0585;
 }
 
-h1 {
-  color: #FF0585;
-  text-align: center;
-  font-size: 40px;
-  text-align: center;
-  font-family: "Black And White Picture", sans-serif;
-  font-family: "Metal", cursive;
-  font-family: "Patrick Hand", cursive;
-  font-family: "Texturina", serif;
-  font-family: "Trochut", cursive;
-  margin: 15px;
-}
-
 .texto {
   font-family: "Black And White Picture", sans-serif;
   font-family: "Metal", cursive;
@@ -104,6 +91,31 @@ h1 {
   font-family: "Trochut", cursive;
   color: #FF0585;
   line-height: 35px;
+}
+
+.btn, .btn-terciario, .btn-secundario, .btn-primario {
+  background-color: #FF0585;
+  padding: 5px;
+  color: black;
+  border: 8px;
+  border-radius: 15px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #FF0585;
+  text-align: center;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Black And White Picture", sans-serif;
+  font-family: "Metal", cursive;
+  font-family: "Patrick Hand", cursive;
+  font-family: "Texturina", serif;
+  font-family: "Trochut", cursive;
+  margin: 15px;
 }
 
 .card {
@@ -127,18 +139,6 @@ h1 {
   text-align: center;
 }
 
-.btn {
-  background-color: #FF0585;
-  padding: 5px;
-  color: black;
-  border: 8px;
-  border-radius: 15px;
-  font-size: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .card-text {
   text-align: center;
   font-family: "Black And White Picture", sans-serif;
@@ -150,15 +150,25 @@ h1 {
   font-size: 18px;
 }
 
+.btn-primario {
+  background-color: #FF0585;
+}
+
+.btn-secundario {
+  background-color: rgb(141, 20, 211);
+}
+
+.btn-terciario {
+  background-color: rgba(0, 195, 255, 0.4);
+}
+
 @media (max-width: 478px) {
   .navbar-brand img {
     margin-top: -18px;
   }
-
   .navbar ul li {
     padding: 0px;
   }
-
   .navbar ul li a {
     color: #FF0585;
     font-size: 24px;
@@ -171,11 +181,9 @@ h1 {
     display: flex;
     justify-content: space-around;
   }
-
   h3 {
     font-size: 14px;
   }
-
   .pie__imagen {
     display: flex;
   }
@@ -184,11 +192,9 @@ h1 {
   .navbar-brand img {
     margin-top: -28%;
   }
-
   .navbar ul li {
     padding: 0px;
   }
-
   .navbar ul li a {
     color: #FF0585;
     font-size: 30px;

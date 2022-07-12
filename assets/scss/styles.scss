@@ -4,7 +4,7 @@
 
 @import"body";
 
-@import"variable";
+@import"variables";
 
 @import"navbar";
 
@@ -18,6 +18,22 @@
 
 @import"header";
 
+@import"card";
+
+@mixin propiedades($ancho,$alto,$colorLetra) {
+    width: $ancho;
+    height: $alto;
+    color: $colorLetra;
+    
+}
+
+
+@each $key, $var in $colores {
+    .btn-#{$key}{
+        @extend .btn;
+        background-color: $var;
+    }    
+}
 
 @media(max-width:478px){
     .navbar-brand img{
@@ -65,6 +81,6 @@
           margin-top:-28%;
         }
   }
-  
+
 
 

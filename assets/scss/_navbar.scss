@@ -10,11 +10,11 @@
     font-family: 'Trochut', cursive; ;
     display: flex;
     justify-content: end;
-    ul li :hover {
+    ul li :hover {    
         transform: translate(20px 20px);
         padding: 15px;             
     }
-    ul li a {    
+    ul li a {   
         color: $colorterciario;
         font-size: 24px;     
     }

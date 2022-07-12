@@ -1,11 +1,12 @@
-.btn {
+.btn{
     background-color: #FF0585;
-    padding: 5px;
+    padding: map-get($btn , paddin);
     color: black;
-    border: 8px;
-    border-radius: 15px;
+    border: map-get($btn , bordes );
+    border-radius:map-get($btn , radio  );
     font-size: 15px;
     display: flex;
     justify-content: center;
-    align-items: center;     
+    align-items: center; 
+    @include propiedades (200px,100px,rgb(255, 255, 255));
 }
