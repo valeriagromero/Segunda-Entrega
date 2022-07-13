@@ -16,6 +16,11 @@
 
 @import"btn";
 
+@mixin encabezado($letra, $color) {
+    font-size: $letra; 
+    color:  $color;
+}
+
 @import"header";
 
 @import"card";
@@ -26,7 +31,6 @@
         background-color: $var;
     }    
 }
-
 @media(max-width:478px){
     .navbar-brand img{
         margin-top:-15px;
@@ -79,7 +83,6 @@
         }
         
   }
- 
 
 
 
