@@ -1,6 +1,6 @@
 .btn{
     background-color: #FF0585;
-    padding: map-get($btn , paddin);
+    padding: map-get($btn , paddin );
     color: black;
     border: map-get($btn , bordes );
     border-radius:map-get($btn , radio  );
@@ -8,4 +8,5 @@
     display: flex;
     justify-content: center;
     align-items: center; 
+
 }
