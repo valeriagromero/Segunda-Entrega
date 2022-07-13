@@ -20,14 +20,6 @@
 
 @import"card";
 
-@mixin propiedades($ancho,$alto,$colorLetra) {
-    width: $ancho;
-    height: $alto;
-    color: $colorLetra;
-    
-}
-
-
 @each $key, $var in $colores {
     .btn-#{$key}{
         @extend .btn;
@@ -37,7 +29,7 @@
 
 @media(max-width:478px){
     .navbar-brand img{
-        margin-top:-18px;
+        margin-top:-15px;
     }   
     .navbar ul li{
         padding: 0px;
