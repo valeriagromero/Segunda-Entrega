@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/styles.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../assets/img/taza-de-te nuevo.png" type="image/x-icon">
     <title>Ubicacion-Breakfasts & Lunchs</title>
 </head>
@@ -32,7 +33,7 @@
                 <a class="nav-link" href="./Historial.html">Mi Historia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">Contaco</a>
+                <a class="nav-link" href="./contacto.html">Contacto</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="./ubicacion.html">Ubicacion</a>
@@ -44,10 +45,7 @@
         </div>
     </nav>
     <header>
-      <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v14.0" nonce="qKfmIOLs"></script>
-        <h1>Breakfasts & Lunchs</h1>
-        
+      <h1>Breakfasts & Lunchs</h1>        
     </header>
     <main>
       <p class="texto text-center">Nuestra Ubicacion</p>
@@ -60,14 +58,26 @@
       <p class="col-12 col-lg-4">Mail: priscilawromero@hotmail.com </p>
       </div>
 
-      <section class="testimonio"> 
-        <div class="testimonio__header">        
-          <h2>Opinion de Nuestros Clientes</h2>          
-        </div>
-        <div class="fb-comments" data-href="https://github.com/valeriagromero/Segunda-Entrega.git" data-width="100%" data-numposts="10"></div>        
-      </section> 
-
-    </main>
+      <div class="row col-12 d-flex justify-content-center align-items-center m-1">
+        <div class="card text-center">
+          <div class="card-header">
+            <h3>Calificacion con Estrellas</h3>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Dejanos tu calificación</h5>
+            <div class="estrellas p-3">
+              <span class="fa fa-star" style="cursor:pointer"></span> 
+              <span class="fa fa-star" style="cursor:pointer"></span> 
+              <span class="fa fa-star" style="cursor:pointer"></span> 
+              <span class="fa fa-star" style="cursor:pointer"></span>
+              <span class="fa fa-star" style="cursor:pointer"></span>                 
+            </div>           
+            <a href="#" class="califica col-3">calificar</a>
+          </div>
+         </div>
+        </div>  
+                
+       </main>
 
     <aside>
         <div class="row justify-content-center align-items-center">
@@ -99,6 +109,6 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
-  </script>
-</body>
+  </script>   
+  </body>
 </html>
