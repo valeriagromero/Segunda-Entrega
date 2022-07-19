@@ -208,3 +208,43 @@ h1 {
     margin-top: -10%;
   }
 }
+.testimonio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.testimonio__header {
+  margin: 20px 0px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonio__header h2 {
+  font-size: 45px;
+  font-weight: 600;
+  font-family: "Black And White Picture", sans-serif;
+  font-family: "Metal", cursive;
+  font-family: "Patrick Hand", cursive;
+  font-family: "Texturina", serif;
+  font-family: "Trochut", cursive;
+  color: #FF0585;
+  padding: 10px 20px;
+}
+
+.coment {
+  font-size: 40px;
+  color: #FF0585;
+  font-family: "Black And White Picture", sans-serif;
+  font-family: "Metal", cursive;
+  font-family: "Patrick Hand", cursive;
+  font-family: "Texturina", serif;
+  font-family: "Trochut", cursive;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
