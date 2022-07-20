@@ -45,7 +45,7 @@
         </div>
     </nav>
     <header>
-      <h1>Breakfasts & Lunchs</h1>        
+         <h1>Breakfasts & Lunchs</h1>        
     </header>
     <main>
       <p class="texto text-center">Nuestra Ubicacion</p>
@@ -76,11 +76,56 @@
           </div>
          </div>
         </div>  
-                
+        <section class="testimonio row col-4 text-center"> 
+          <div class="testimonio__header">        
+            <h2> Opinion de Nuestros Clientes</h2>          
+          </div>       
+            
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card">
+                  <img class="mujer" src="../assets/img/cara mujer.png" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">Mi comentario</h5>
+                    <div class="estrellas p-3">
+                      <span class="fa fa-star" style="cursor:pointer"></span> 
+                      <span class="fa fa-star" style="cursor:pointer"></span> 
+                      <span class="fa fa-star" style="cursor:pointer"></span> 
+                      <span class="fa fa-star" style="cursor:pointer"></span>
+                      <span class="fa fa-star" style="cursor:pointer"></span>                 
+                    </div> 
+                    <div class="name user p-1">
+                      <strong>Valentina Cardozo</strong>
+                      <Span>@valencardozo</Span>
+                    </div>                  
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img class="hombre" src="../assets/img/hombre barba.png" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">Mi comentario</h5>
+                    <div class="estrellas p-3">
+                      <span class="fa fa-star" style="cursor:pointer"></span> 
+                      <span class="fa fa-star" style="cursor:pointer"></span> 
+                      <span class="fa fa-star" style="cursor:pointer"></span> 
+                      <span class="fa fa-star" style="cursor:pointer"></span>                                      
+                    </div> 
+                    <div class="name user p-1">
+                      <strong>Marcelo Gonzalez</strong>
+                      <Span>@marcelogonzalez23</Span>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div> 
+              <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="2"></div>       
+                     
        </main>
 
     <aside>
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center mt-5">
             <h3 class="text-center my-3 p-3 texto fs-2">Metodos de Pago</h3>
             <div class="col-4 p-3 col-md-2"><img src="../assets/img/tarjetas/banelco@2x edit.png" alt=""></div>
             <div class="col-4 p-3 col-md-2"><img src="../assets/img/tarjetas/mastercard@2x edi.png" alt=""></div>
@@ -109,6 +154,8 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
-  </script>   
+  </script>  
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v14.0" nonce="NVsxdTMv"></script> 
   </body>
 </html>
