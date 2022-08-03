@@ -1,0 +1,33 @@
+.testimonio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    .testimonio__header{
+        margin: 5px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .testimonio__header h2{
+            font-size: 45px;
+            font-weight: 600 ;
+            font-family:'Black And White Picture', sans-serif;
+            font-family: 'Metal', cursive;
+            font-family: 'Patrick Hand', cursive;
+            font-family: 'Texturina', serif;
+            font-family: 'Trochut', cursive; ;
+            color:$colorPrimario ;
+            
+        }
+    }
+
+}
+.mujer{
+    width: 50px;
+    
+}
+.hombre{
+    width: 45px;
+}

@@ -36,6 +36,33 @@ body {
   justify-content: end;
 }
 
+.logo {
+  color: rgb(195, 146, 238);
+  font-size: 24px;
+  padding-top: 45px;
+}
+
+.taza {
+  color: black;
+  font-family: "Black And White Picture", sans-serif;
+  font-family: "Metal", cursive;
+  font-family: "Patrick Hand", cursive;
+  font-family: "Texturina", serif;
+  font-family: "Trochut", cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.taza2 {
+  font-family: "Black And White Picture", sans-serif;
+  font-family: "Metal", cursive;
+  font-family: "Patrick Hand", cursive;
+  font-family: "Texturina", serif;
+  font-family: "Trochut", cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .pie {
   width: 100%;
   height: 60px;
@@ -64,11 +91,11 @@ form input {
   padding: 4px 8px;
   border-radius: 4px;
   margin: 5px;
-  border: 1px solid #FF0585;
+  border: 1px solid dimgray;
 }
 form input .mensaje {
   border-radius: 4px;
-  border: 1px solid #FF0585;
+  border: 1px solid dimgray;
 }
 
 .texto {
@@ -77,7 +104,7 @@ form input .mensaje {
   font-family: "Patrick Hand", cursive;
   font-family: "Texturina", serif;
   font-family: "Trochut", cursive;
-  color: #FF0585;
+  color: dimgray;
   font-size: 24px;
 }
 
@@ -87,7 +114,7 @@ form input .mensaje {
   font-family: "Patrick Hand", cursive;
   font-family: "Texturina", serif;
   font-family: "Trochut", cursive;
-  color: #FF0585;
+  color: dimgray;
   line-height: 35px;
 }
 
@@ -113,11 +140,11 @@ h1 {
   font-family: "Trochut", cursive;
   margin: 15px;
   font-size: 40px;
-  color: #FF0585;
+  color: dimgray;
 }
 
 .card {
-  border: 2px solid #FF0585;
+  border: 2px solid dimgray;
   margin: 10px;
   border-radius: 10px;
   padding: 10px;
@@ -127,7 +154,7 @@ h1 {
 }
 .card h5 {
   font-size: 24px;
-  color: #FF0585;
+  color: dimgray;
   margin: 5px 0px;
   font-family: "Black And White Picture", sans-serif;
   font-family: "Metal", cursive;
@@ -148,66 +175,17 @@ h1 {
   font-size: 18px;
 }
 
-.btn-primario {
-  background-color: #FF0585;
+h2 {
+  text-align: center;
+  text-align: center;
+  font-family: "Black And White Picture", sans-serif;
+  font-family: "Metal", cursive;
+  font-family: "Patrick Hand", cursive;
+  font-family: "Texturina", serif;
+  font-family: "Trochut", cursive;
+  color: dimgrey;
 }
 
-.btn-secundario {
-  background-color: rgb(141, 20, 211);
-}
-
-.btn-terciario {
-  background-color: rgba(0, 195, 255, 0.4);
-}
-
-@media (max-width: 478px) {
-  .navbar-brand img {
-    margin-top: -15px;
-  }
-  .navbar ul li {
-    padding: 0px;
-  }
-  .navbar ul li a {
-    color: rgb(195, 146, 238);
-    font-size: 24px;
-    padding: 2px;
-    text-align: end;
-  }
-}
-@media (max-width: 478px) {
-  .pie {
-    display: flex;
-    justify-content: space-around;
-  }
-  h3 {
-    font-size: 14px;
-  }
-}
-@media (max-width: 768px) {
-  .navbar-brand img {
-    margin-top: -28%;
-  }
-  .navbar ul li {
-    padding: 0px;
-  }
-  .navbar ul li a {
-    color: rgb(195, 146, 238);
-    font-size: 30px;
-    padding: 2px;
-    text-align: end;
-  }
-  .pie__imagen {
-    display: flex;
-  }
-  h3 {
-    font-size: 18px;
-  }
-}
-@media (max-width: 992px) {
-  .navbar-brand img {
-    margin-top: -10%;
-  }
-}
 .testimonio {
   display: flex;
   justify-content: center;
@@ -215,16 +193,14 @@ h1 {
   flex-direction: column;
   width: 100%;
 }
-
-.testimonio__header {
+.testimonio .testimonio__header {
   margin: 5px 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-.testimonio__header h2 {
+.testimonio .testimonio__header .testimonio__header h2 {
   font-size: 45px;
   font-weight: 600;
   font-family: "Black And White Picture", sans-serif;
@@ -232,15 +208,15 @@ h1 {
   font-family: "Patrick Hand", cursive;
   font-family: "Texturina", serif;
   font-family: "Trochut", cursive;
-  color: #FF0585;
+  color: dimgray;
 }
 
 .mujer {
-  width: 120px;
+  width: 50px;
 }
 
 .hombre {
-  width: 120px;
+  width: 45px;
 }
 
 .loguin {
@@ -296,4 +272,65 @@ h1 {
 
 .loguin a :hover {
   text-decoration: underline;
+}
+
+.btn-primario {
+  background-color: #FF0585;
+}
+
+.btn-secundario {
+  background-color: rgb(198, 149, 226);
+}
+
+.btn-terciario {
+  background-color: rgba(0, 195, 255, 0.4);
+}
+
+@media (max-width: 478px) {
+  .navbar-brand img {
+    margin-top: -15px;
+  }
+  .navbar ul li {
+    padding: 0px;
+  }
+  .navbar ul li a {
+    color: rgb(195, 146, 238);
+    font-size: 24px;
+    padding: 2px;
+    text-align: end;
+  }
+}
+@media (max-width: 478px) {
+  .pie {
+    display: flex;
+    justify-content: space-around;
+  }
+  h3 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-brand img {
+    margin-top: -28%;
+  }
+  .navbar ul li {
+    padding: 0px;
+  }
+  .navbar ul li a {
+    color: rgb(195, 146, 238);
+    font-size: 30px;
+    padding: 2px;
+    text-align: end;
+  }
+  .pie__imagen {
+    display: flex;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 992px) {
+  .navbar-brand img {
+    margin-top: -10%;
+  }
 }
